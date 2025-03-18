@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ff6b00;
+  --primary-dark: #ff8533;
+}
+
+body {
+  @apply bg-black text-white;
+}
+
+.dark {
+  color-scheme: dark;
+}
